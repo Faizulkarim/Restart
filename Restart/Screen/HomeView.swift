@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    // MARK: PROPERTIES
+    @AppStorage("onboarding") var isOnboaringViewActive = true
+    
     var body: some View {
-        OnboardingView()
+        ZStack {
+            if isOnboaringViewActive {
+                OnboardingView()
+            }else {
+                RestartView()
+            }
+        }
+        .animation(.easeOut(duration: 0.5), value: isOnboaringViewActive)
     }
 }
 

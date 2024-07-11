@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GetStartedSlideButtonView: View {
     
+    @AppStorage("onboarding") var isOnboaringViewActive = true
     @State private var buttonWidht: Double = (UIScreen.current?.bounds.width)! - 80
     @State private var buttonOffset: CGFloat = 0
     @State var isAnimating : Bool = false
@@ -64,6 +65,7 @@ struct GetStartedSlideButtonView: View {
                                 hapticFeedBack.notificationOccurred(.success)
                                 AudioPlayer.shared.playSound(sound: Constants.chimeupSound)
                                 buttonOffset = buttonWidht - 80
+                                isOnboaringViewActive = false
                             }else {
                                 hapticFeedBack.notificationOccurred(.warning)
                                 buttonOffset = 0

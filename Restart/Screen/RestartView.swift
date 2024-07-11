@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RestartView: View {
     @State private var isAnimating = false
+    @AppStorage("onboarding") var isOnboaringViewActive = false
     var body: some View {
         VStack(spacing: 20) {
             Spacer()
@@ -34,6 +35,7 @@ struct RestartView: View {
             
             Button(action: {
                 AudioPlayer.shared.playSound(sound: Constants.successSound, type: "m4a")
+                isOnboaringViewActive = true
                 
             }, label: {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
