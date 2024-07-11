@@ -1,31 +1,49 @@
-# Screenshot 
+# Restart
+
+## Overview
+Restart is a demo iOS application built with SwiftUI to explore and implement various advanced SwiftUI features. This project showcases my understanding and practical application of state management, gestures, animations, and user feedback in iOS development.
+
+
+## Screenshot 
 <img src="https://github.com/user-attachments/assets/0444d1a8-a982-4a60-992f-048cde7b4c4a" width="200" />
 <img src="https://github.com/user-attachments/assets/139dc1b8-cf6d-4710-84fa-fea23363cbb8" width="200" />
 
 
-# Video 
+## Video 
 https://github.com/user-attachments/assets/bb396669-af56-4c00-b49d-1d1fbd4fa707
 
+## Features
 
-# What I Learned from Creating This Project
-## Using @AppStorage in SwiftUI:
+### Persistent Storage with @AppStorage:
 
-Leveraged the @AppStorage property wrapper, which utilizes UserDefaults to store and retrieve persistent data effortlessly. This feature enabled seamless data storage and access across app sessions.
-## Adding Drag Gestures:
+Utilizes the @AppStorage property wrapper for seamless data storage and retrieval using UserDefaults.
+### Interactive Drag Gestures:
 
-Implemented drag gestures to enhance user interaction, updating the UI dynamically based on drag movements.
-## Incorporating Animations:
+Implements drag gestures to dynamically update the UI based on user interactions.
+### Smooth Animations:
 
-Integrated animations to improve UI transitions, making the user experience more engaging and visually appealing.
-## Creating a Horizontal Parallax Effect:
+Integrates animations to enhance UI transitions and provide a more engaging user experience.
+### Horizontal Parallax Effect:
 
-Developed a horizontal parallax effect using drag gestures. This involved utilizing absolute values to achieve a smooth and responsive parallax movement.
-## Applying Rotation Effects:
+Creates a horizontal parallax effect using drag gestures, leveraging absolute values for smooth and responsive movement.
+### Rotation Effects:
 
-Combined drag gestures with rotation effects to add a layer of depth and interactivity to the UI components.
-## Using Sounds for Screen Transitions:
+Combines drag gestures with rotation effects to add depth and interactivity to UI components.
+### Auditory Feedback:
 
-Added auditory feedback by incorporating sounds during screen transitions, enhancing the overall user experience.
-## Implementing Haptic Feedback:
+Adds sound effects during screen transitions to enrich the overall user experience.
+### Haptic Feedback:
 
-Integrated haptic feedback to provide tactile responses for both full and half drag gestures, adding a sense of realism and responsiveness to user interactions.
+Provides tactile responses through haptic feedback for both full and half drag gestures, improving user interaction and realism.
+
+
+#Learning Outcomes
+By working on the Restart project, I have deepened my knowledge and skills in:
+
+- Efficiently using @AppStorage to handle persistent data in SwiftUI applications.
+- Implementing and handling drag gestures to create interactive UI elements.
+- Incorporating animations to create smooth and visually appealing transitions.
+- Developing a horizontal parallax effect for an immersive user experience.
+- Applying rotation effects in conjunction with drag gestures for added interactivity.
+- Enhancing the user experience with sound effects during transitions.
+- Integrating haptic feedback to provide a tactile response for user actions.
