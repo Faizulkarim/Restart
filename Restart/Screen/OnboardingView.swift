@@ -138,6 +138,8 @@ struct OnboardingView: View {
                                     
                                     if buttonOffset > (buttonWidht / 2) + 50 {
                                         hapticFeedBack.notificationOccurred(.success)
+                                        AudioPlayer.shared.playSound(sound: Constants.chimeupSound)
+                                        buttonOffset = buttonWidht - 80
                                     }else {
                                         hapticFeedBack.notificationOccurred(.warning)
                                         buttonOffset = 0
