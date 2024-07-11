@@ -13,6 +13,8 @@ struct OnboardingView: View {
     @State private var imageOffset =  CGSize.zero
     @State private var buttonWidht: Double = (UIScreen.current?.bounds.width)! - 80
     @State private var buttonOffset: CGFloat = 0
+    @State private var indicatorOpactiy = 1.0
+    let hapticFeedBack = UINotificationFeedbackGenerator()
     
     var body: some View {
         ZStack {
@@ -52,6 +54,15 @@ struct OnboardingView: View {
                         .offset(x: imageOffset.width * 1.2 , y: 0)
                         .rotationEffect(.degrees(imageOffset.width / 20))
                 }
+                .overlay(
+                    Image(systemName: "arrow.left.and.right.circle")
+                        .font(.system(size: 42, weight: .ultraLight))
+                        .foregroundStyle(.white)
+                        .opacity(isAnimating ? 1 : 0)
+                        .animation(.easeOut(duration: 1).delay(2), value: isAnimating)
+                        .opacity(indicatorOpactiy)
+                    , alignment: .bottom
+                )
                 
                 // MARK: FOOTER
                 
@@ -90,6 +101,25 @@ struct OnboardingView: View {
                         .frame(width: 80, height: 80, alignment: .center)
                         .foregroundStyle(.white)
                         .offset(x: buttonOffset)
+                        .gesture(
+                            DragGesture()
+                                .onChanged({ gester in
+                                    if gester.translation.width > 0 && (buttonOffset <= buttonWidht - 80){
+                                        buttonOffset = gester.translation.width
+                                    }
+                                    
+                                })
+                                .onEnded({ _ in
+                                    
+                                    if buttonOffset > (buttonWidht / 2) + 50 {
+                                        hapticFeedBack.notificationOccurred(.success)
+                                    }else {
+                                        hapticFeedBack.notificationOccurred(.warning)
+                                        buttonOffset = 0
+                                    }
+                                })
+                        
+                        )
                         
                         
                         Spacer()
@@ -106,6 +136,7 @@ struct OnboardingView: View {
         }.onAppear(perform: {
             isAnimating = true
         })
+        .preferredColorScheme(.dark)
     }
 }
 
