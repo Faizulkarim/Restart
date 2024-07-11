@@ -37,7 +37,7 @@ Adds sound effects during screen transitions to enrich the overall user experien
 Provides tactile responses through haptic feedback for both full and half drag gestures, improving user interaction and realism.
 
 
-#Learning Outcomes
+## Learning Outcomes
 By working on the Restart project, I have deepened my knowledge and skills in:
 
 - Efficiently using @AppStorage to handle persistent data in SwiftUI applications.
