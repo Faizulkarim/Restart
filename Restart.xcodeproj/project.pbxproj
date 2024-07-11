@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6FB1362C402C9700684036 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FB1342C402C9700684036 /* success.m4a */; };
+		1D6FB1372C402C9700684036 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FB1352C402C9700684036 /* chimeup.mp3 */; };
 		1DABD2B52C35E4C200904E1E /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DABD2B42C35E4C200904E1E /* RestartApp.swift */; };
 		1DABD2B72C35E4C200904E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DABD2B62C35E4C200904E1E /* ContentView.swift */; };
 		1DABD2B92C35E4C400904E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DABD2B82C35E4C400904E1E /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6FB1342C402C9700684036 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		1D6FB1352C402C9700684036 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		1DABD2B12C35E4C200904E1E /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DABD2B42C35E4C200904E1E /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		1DABD2B62C35E4C200904E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6FB1332C402C8B00684036 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FB1352C402C9700684036 /* chimeup.mp3 */,
+				1D6FB1342C402C9700684036 /* success.m4a */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		1DABD2A82C35E4C200904E1E = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +64,7 @@
 		1DABD2B32C35E4C200904E1E /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				1D6FB1332C402C8B00684036 /* Sound */,
 				1DABD2B42C35E4C200904E1E /* RestartApp.swift */,
 				1DABD2B62C35E4C200904E1E /* ContentView.swift */,
 				1DABD2B82C35E4C400904E1E /* Assets.xcassets */,
@@ -125,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6FB1372C402C9700684036 /* chimeup.mp3 in Resources */,
 				1DABD2BC2C35E4C400904E1E /* Preview Assets.xcassets in Resources */,
+				1D6FB1362C402C9700684036 /* success.m4a in Resources */,
 				1DABD2B92C35E4C400904E1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
