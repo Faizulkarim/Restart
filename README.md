@@ -1,3 +1,12 @@
+# Screenshot 
+<img src="https://github.com/user-attachments/assets/0444d1a8-a982-4a60-992f-048cde7b4c4a" width="200" />
+<img src="https://github.com/user-attachments/assets/139dc1b8-cf6d-4710-84fa-fea23363cbb8" width="200" />
+
+
+# Video 
+https://github.com/user-attachments/assets/bb396669-af56-4c00-b49d-1d1fbd4fa707
+
+
 # What I Learned from Creating This Project
 ## Using @AppStorage in SwiftUI:
 
