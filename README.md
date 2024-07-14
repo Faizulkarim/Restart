@@ -14,13 +14,13 @@ https://github.com/user-attachments/assets/bb396669-af56-4c00-b49d-1d1fbd4fa707
 
 ## Features
 
-**Persistent Storage with @AppStorage:** Utilizes the @AppStorage property wrapper for seamless data storage and retrieval using UserDefaults.
-**Interactive Drag Gestures:** Implements drag gestures to dynamically update the UI based on user interactions.
-**Smooth Animations:** Integrates animations to enhance UI transitions and provide a more engaging user experience.
-**Horizontal Parallax Effect:** Creates a horizontal parallax effect using drag gestures, leveraging absolute values for smooth and responsive movement.
-**Rotation Effects:** Combines drag gestures with rotation effects to add depth and interactivity to UI components.
-**Auditory Feedback:** Adds sound effects during screen transitions to enrich the overall user experience.
-**Haptic Feedback:** Provides tactile responses through haptic feedback for both full and half-drag gestures, improving user interaction and realism.
+- **Persistent Storage with @AppStorage:** Utilizes the @AppStorage property wrapper for seamless data storage and retrieval using UserDefaults.
+- **Interactive Drag Gestures:** Implements drag gestures to dynamically update the UI based on user interactions.
+- **Smooth Animations:** Integrates animations to enhance UI transitions and provide a more engaging user experience.
+- **Horizontal Parallax Effect:** Creates a horizontal parallax effect using drag gestures, leveraging absolute values for smooth and responsive movement.
+- **Rotation Effects:** Combines drag gestures with rotation effects to add depth and interactivity to UI components.
+- **Auditory Feedback:** Adds sound effects during screen transitions to enrich the overall user experience.
+- **Haptic Feedback:** Provides tactile responses through haptic feedback for both full and half-drag gestures, improving user interaction and realism.
 
 
 ## Learning Outcomes
