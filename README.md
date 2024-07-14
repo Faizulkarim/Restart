@@ -33,3 +33,18 @@ By working on the Restart project, I have deepened my knowledge and skills in:
 - Applying rotation effects in conjunction with drag gestures for added interactivity.
 - Enhancing the user experience with sound effects during transitions.
 - Integrating haptic feedback to provide a tactile response for user actions.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Faizulkarim/Restart.git
+
+2. Open the project in Xcode.
+3. Build and run the app on your simulator or device.
+
+
+## Contribution
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
+
