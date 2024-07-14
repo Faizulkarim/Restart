@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/bb396669-af56-4c00-b49d-1d1fbd4fa707
 - **Haptic Feedback:** Provides tactile responses through haptic feedback for both full and half-drag gestures, improving user interaction and realism.
 
 
-## Learning Outcomes
+## Learning Points:
 By working on the Restart project, I have deepened my knowledge and skills in:
 
 - Efficiently using @AppStorage to handle persistent data in SwiftUI applications.
